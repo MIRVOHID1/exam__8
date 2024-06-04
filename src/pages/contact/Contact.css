@@ -1,0 +1,57 @@
+.contact__container{
+    max-width: 1300px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.contact__wrapper{
+    margin-top: 30px;
+    max-width: 320px;
+    width: 100%;
+}
+
+.contact__content1{
+    padding: 30px;
+    background-color: #96b1c2;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+.contact__img{
+    height: 100px;
+    width: 100px;
+}
+
+.contact__text1{
+    font-weight: 800;
+    font-size: 1.0625rem;
+    margin: .625rem 0 1rem;
+    color: #fff;
+}
+
+.contact__text2{
+    font-weight: 500;
+    font-size: 19px;
+    margin: .625rem 0 1rem;
+    color: #fff;
+    text-decoration: none;
+}
+
+.contact__text3{
+    margin: 0px;
+    padding: 10px 0;
+}
+
+.contact__tel{
+    font-size: 20px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.contact__qr{
+    padding: 10px;
+    border-radius: 10px;
+    width: 100px;
+    height: 100px;
+    background-color: aliceblue;
+}

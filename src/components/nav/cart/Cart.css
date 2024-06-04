@@ -1,0 +1,15 @@
+.cart__button{
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+    text-decoration: none;
+    color: #000;
+}
+
+.cart__icon{
+    padding: 10px;
+    border-radius: 50px;
+    background-color: #51267d15;
+    color: #51267d;
+    font-size: 23px;
+}

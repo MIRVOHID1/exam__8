@@ -1,0 +1,161 @@
+.modal__overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.modal {
+    background: #fff;
+    padding: 20px 20px 20px 0;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 700px;
+    max-height: 500px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    position: relative;
+}
+
+.modal__close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.modal__image {
+    width: 350px;
+    height: 100px;
+    height: auto;
+    margin-bottom: 20px;
+    margin: 50px 30px 50px 0;
+}
+
+
+.modal__content {
+    position: relative;
+    text-align: center;
+    display: flex;
+    column-gap: 20px;
+}
+
+.modal__title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.modal__description {
+    margin-bottom: 20px;
+    color: #666;
+    text-align: left;
+}
+
+.modal__options {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.modal__option {
+    margin-bottom: 10px;
+}
+
+.modal__option label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.modal__option input,
+.modal__option select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.modal__footer {
+    max-width: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.modal__button{
+    border: 1px solid #51267d;
+    padding: 12px 20px;
+    border-radius: 50px;
+    background-color: #51267d;
+    color: #fff;
+    font-weight: 400;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.modal__button:active{
+    background-color: #ffffff;
+    color: #000;
+}
+
+.modal__quantity{
+    border: #51267d 1px solid;
+    border-radius: 50px;
+    padding: 0px 15px;
+}
+
+.modal__quantity__value{
+    padding: 0 15px;
+    font-size: 25px;
+}
+
+.modal__quantity__button{
+    border: none;
+    background: none;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.modal__price {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.modal__button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    transition: background-color 0.3s;
+}
+
+.modal__button:hover {
+    background-color: #0056b3;
+}
+
+.modal__button.disabled {
+    background-color: grey;
+    cursor: not-allowed;
+    pointer-events: none;
+}
+
+.modal__button.disabled:hover {
+    background-color: grey;
+}
